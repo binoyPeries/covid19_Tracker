@@ -36,7 +36,7 @@ class _SriLankaState extends State<SriLanka> {
     GetInformation sl = GetInformation(url: "summary");
     var data = await sl.getData();
     setState(() {
-      var slData = data['Countries'][157];
+      var slData = data['Countries'][161];
       total = slData['TotalConfirmed'];
       recovered = slData['TotalRecovered'];
       deaths = slData['TotalDeaths'];

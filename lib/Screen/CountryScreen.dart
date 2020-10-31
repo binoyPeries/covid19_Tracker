@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:covid19/Widgets/cards_With_Verticals.dart';
 import 'package:covid19/networking.dart';
 import 'package:covid19/Constants.dart';
 import 'package:covid19/Widgets/slCard.dart';
